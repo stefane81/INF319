@@ -1,0 +1,44 @@
+{
+  "name": "mbdev",
+  "version": "1.0.0",
+  "description": "Display Allens Institute Mouse Brain in webGL",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@types/dat-gui": "^0.6.2",
+    "@types/three": "^0.83.4",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "@types/dat-gui": "^0.6.2",
+    "@types/three": "^0.83.4",
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-typescript": "^3.1.5",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "mocha": "^3.2.0",
+    "path": "^0.12.7",
+    "source-map-loader": "^0.1.6",
+    "stats.js": "^0.17.0",
+    "three": "^0.84.0",
+    "three-mtl-loader": "^1.0.1",
+    "three-obj-loader": "^1.0.2",
+    "three-orbit-controls": "^82.1.0",
+    "three-orbitcontrols-ts": "^0.1.2",
+    "tsify": "^3.0.1",
+    "typescript": "^2.2.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Stefan Einarsson",
+  "license": "ISC",
+  "main": "gulpfile.js"
+}
