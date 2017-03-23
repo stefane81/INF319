@@ -1,10 +1,13 @@
 const express = require('express')  
-const app = express()  
-const port = 8080
+const app = express();  
+const port = 8080;
+var path = require('path');
 
-app.get('/', (request, response) => {  
-  response.send('Hello from Express!')
-})
+app.use(express.static('dist'));
+// viewed at http://localhost:8080
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
+});
 
 app.listen(port, (err) => {  
   if (err) {

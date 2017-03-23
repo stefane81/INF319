@@ -8,12 +8,12 @@ var OrbitControls = require('three-orbit-controls')(THREE);
 let camera: any, scene: any, renderer: any, group: any, mode: any, controls: any, loader: any;
 
 const testFolder = './models/';
-const fs = require('fs');
-fs.readdir(testFolder, (err:any, files:any) => {
-  files.forEach(file => {
-    console.log(file);
-  });
-})
+// const fs = require('fs');
+// fs.readdir(testFolder, (err:any, files:any) => {
+//   files.forEach(file => {
+//     console.log(file);
+//   });
+// })
 // initiate all values
 init();
 // animation loop
